@@ -1,0 +1,11 @@
+.content__section_cell_cover {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+@media screen and (max-width:1149px) {
+    .content__section_cell_cover {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

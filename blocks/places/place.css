@@ -1,0 +1,19 @@
+.place {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 80px;
+    padding: 0 auto;
+}
+
+@media screen and (max-width:896px) {
+    .place {
+        gap: 73px;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .place {
+        gap: 50px;
+    }
+}
