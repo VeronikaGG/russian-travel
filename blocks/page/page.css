@@ -11,10 +11,10 @@
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
 
-
-    @media screen and (max-width:710px) {
-        .page {
-            padding-top: 16px;
-        }
+@media screen and (max-width:710px) {
+    .page {
+        padding-top: 16px;
     }
+}
