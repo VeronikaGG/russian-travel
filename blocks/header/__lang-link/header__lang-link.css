@@ -5,17 +5,20 @@
     font-style: normal;
     color: #FFFFFF;
     margin: auto 18px 6px 0;
+    text-decoration: none;
+    transition: .5s;
 }
 
 .header__lang-link:last-child {
     margin-right: 0;
-    text-decoration: none;
+}
+.header__lang-link:hover {
+    opacity: .8;
 }
 
 @media screen and (max-width:710px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-
     }
 }
